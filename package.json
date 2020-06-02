@@ -1,0 +1,25 @@
+{
+  "name": "yieldscan-backend",
+  "version": "1.0.0",
+  "description": "Backend codebase for YieldScan",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "polkadot",
+    "kusama",
+    "staking",
+    "return"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polkadot/api": "^1.16.1",
+    "dotenv": "^8.2.0",
+    "express-mongo-sanitize": "^2.0.0",
+    "express-rate-limit": "^5.1.3",
+    "mongoose": "^5.9.16",
+    "pino": "^6.3.0"
+  }
+}
